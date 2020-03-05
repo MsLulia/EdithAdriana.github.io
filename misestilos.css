@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+h1{
+  font: bold 20px verdana, sans-serif;
+}
+
+h2{
+  font: bold 14px verdana, sans-serif;
+}
+
+h3,h4{
+  font: bold 14px georgia,serif;
+}
+
+header, section, footer, aside, article, figure, figcaption{
+  display: block;
+}
+
+body{
+  text-align: justify;
+  font: bold 12px georgia, serif;
+  background:url(bgd.jpg);
+
+}
+
+#agrupar{
+  width: 960px;
+  margin: 15px auto;
+  text-align: left;
+}
+
+#cabeza{
+  background:  #cce6ff;
+  border: 3px solid #0073e6;
+  padding: 20px;
+}
+
+#seccion{
+  float: left;
+  width: 660px;
+  margin: 20px;
+  background: #1a8cff;
+}
+
+#columna{
+  float: left;
+  width: 220px;
+  margin: 20px 0px;
+  padding: 20px;
+  background: #0080ff;
+}
+
+#pie{
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #80bfff;
+
+}
